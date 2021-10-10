@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 
-    int GCD(int , int);
     int GCD(int a, int b)
     {
         if(b==0)
@@ -11,7 +10,8 @@ using namespace std;
         else 
         return GCD(b,a%b);
 
-    }
+    };
+
     int main()
 {
     int a,b;
